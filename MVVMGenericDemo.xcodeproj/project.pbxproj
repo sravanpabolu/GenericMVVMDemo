@@ -16,6 +16,29 @@
 		82998950279FCBF800D78106 /* MVVMGenericDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8299894F279FCBF800D78106 /* MVVMGenericDemoTests.swift */; };
 		8299895A279FCBF800D78106 /* MVVMGenericDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82998959279FCBF800D78106 /* MVVMGenericDemoUITests.swift */; };
 		8299895C279FCBF800D78106 /* MVVMGenericDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8299895B279FCBF800D78106 /* MVVMGenericDemoUITestsLaunchTests.swift */; };
+		8299896E279FD1F500D78106 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82998968279FD1F400D78106 /* UserViewModel.swift */; };
+		8299896F279FD1F500D78106 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82998968279FD1F400D78106 /* UserViewModel.swift */; };
+		82998970279FD1F500D78106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82998969279FD1F400D78106 /* Assets.xcassets */; };
+		82998971279FD1F500D78106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82998969279FD1F400D78106 /* Assets.xcassets */; };
+		82998976279FD1F600D78106 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8299896C279FD1F500D78106 /* Base.lproj */; };
+		82998977279FD1F600D78106 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8299896C279FD1F500D78106 /* Base.lproj */; };
+		8299897F279FD23A00D78106 /* NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8299897D279FD23900D78106 /* NetworkTests.swift */; };
+		82998991279FD3B200D78106 /* Users.json in Resources */ = {isa = PBXBuildFile; fileRef = 82998987279FD3B200D78106 /* Users.json */; };
+		82998992279FD3B200D78106 /* Users.json in Resources */ = {isa = PBXBuildFile; fileRef = 82998987279FD3B200D78106 /* Users.json */; };
+		82998993279FD3B200D78106 /* ErrorUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = 82998988279FD3B200D78106 /* ErrorUsers.json */; };
+		82998994279FD3B200D78106 /* ErrorUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = 82998988279FD3B200D78106 /* ErrorUsers.json */; };
+		82998995279FD3B200D78106 /* Posts.json in Resources */ = {isa = PBXBuildFile; fileRef = 82998989279FD3B200D78106 /* Posts.json */; };
+		82998996279FD3B200D78106 /* Posts.json in Resources */ = {isa = PBXBuildFile; fileRef = 82998989279FD3B200D78106 /* Posts.json */; };
+		82998997279FD3B200D78106 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8299898B279FD3B200D78106 /* Constants.swift */; };
+		82998998279FD3B200D78106 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8299898B279FD3B200D78106 /* Constants.swift */; };
+		82998999279FD3B300D78106 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8299898C279FD3B200D78106 /* NetworkManager.swift */; };
+		8299899A279FD3B300D78106 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8299898C279FD3B200D78106 /* NetworkManager.swift */; };
+		8299899B279FD3B300D78106 /* LocalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8299898D279FD3B200D78106 /* LocalManager.swift */; };
+		8299899C279FD3B300D78106 /* LocalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8299898D279FD3B200D78106 /* LocalManager.swift */; };
+		8299899D279FD3B300D78106 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8299898F279FD3B200D78106 /* User.swift */; };
+		8299899E279FD3B300D78106 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8299898F279FD3B200D78106 /* User.swift */; };
+		8299899F279FD3B300D78106 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82998990279FD3B200D78106 /* Posts.swift */; };
+		829989A0279FD3B300D78106 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82998990279FD3B200D78106 /* Posts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +72,18 @@
 		82998955279FCBF800D78106 /* MVVMGenericDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMGenericDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82998959279FCBF800D78106 /* MVVMGenericDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMGenericDemoUITests.swift; sourceTree = "<group>"; };
 		8299895B279FCBF800D78106 /* MVVMGenericDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMGenericDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		82998968279FD1F400D78106 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		82998969279FD1F400D78106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8299896C279FD1F500D78106 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		8299897D279FD23900D78106 /* NetworkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTests.swift; sourceTree = "<group>"; };
+		82998987279FD3B200D78106 /* Users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Users.json; sourceTree = "<group>"; };
+		82998988279FD3B200D78106 /* ErrorUsers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ErrorUsers.json; sourceTree = "<group>"; };
+		82998989279FD3B200D78106 /* Posts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Posts.json; sourceTree = "<group>"; };
+		8299898B279FD3B200D78106 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8299898C279FD3B200D78106 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8299898D279FD3B200D78106 /* LocalManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalManager.swift; sourceTree = "<group>"; };
+		8299898F279FD3B200D78106 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		82998990279FD3B200D78106 /* Posts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +134,12 @@
 		82998937279FCBEE00D78106 /* MVVMGenericDemo */ = {
 			isa = PBXGroup;
 			children = (
+				82998986279FD3B200D78106 /* LocalJson */,
+				8299898E279FD3B200D78106 /* Model */,
+				8299898A279FD3B200D78106 /* Utils */,
+				82998969279FD1F400D78106 /* Assets.xcassets */,
+				8299896C279FD1F500D78106 /* Base.lproj */,
+				82998968279FD1F400D78106 /* UserViewModel.swift */,
 				82998938279FCBEE00D78106 /* AppDelegate.swift */,
 				8299893A279FCBEE00D78106 /* SceneDelegate.swift */,
 				8299893C279FCBEE00D78106 /* ViewController.swift */,
@@ -113,6 +154,7 @@
 		8299894E279FCBF800D78106 /* MVVMGenericDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				8299897D279FD23900D78106 /* NetworkTests.swift */,
 				8299894F279FCBF800D78106 /* MVVMGenericDemoTests.swift */,
 			);
 			path = MVVMGenericDemoTests;
@@ -125,6 +167,35 @@
 				8299895B279FCBF800D78106 /* MVVMGenericDemoUITestsLaunchTests.swift */,
 			);
 			path = MVVMGenericDemoUITests;
+			sourceTree = "<group>";
+		};
+		82998986279FD3B200D78106 /* LocalJson */ = {
+			isa = PBXGroup;
+			children = (
+				82998987279FD3B200D78106 /* Users.json */,
+				82998988279FD3B200D78106 /* ErrorUsers.json */,
+				82998989279FD3B200D78106 /* Posts.json */,
+			);
+			path = LocalJson;
+			sourceTree = "<group>";
+		};
+		8299898A279FD3B200D78106 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8299898B279FD3B200D78106 /* Constants.swift */,
+				8299898C279FD3B200D78106 /* NetworkManager.swift */,
+				8299898D279FD3B200D78106 /* LocalManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8299898E279FD3B200D78106 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8299898F279FD3B200D78106 /* User.swift */,
+				82998990279FD3B200D78106 /* Posts.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +302,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82998991279FD3B200D78106 /* Users.json in Resources */,
+				82998993279FD3B200D78106 /* ErrorUsers.json in Resources */,
+				82998976279FD1F600D78106 /* Base.lproj in Resources */,
+				82998995279FD3B200D78106 /* Posts.json in Resources */,
 				82998945279FCBF700D78106 /* LaunchScreen.storyboard in Resources */,
 				82998942279FCBF700D78106 /* Assets.xcassets in Resources */,
+				82998970279FD1F500D78106 /* Assets.xcassets in Resources */,
 				82998940279FCBEE00D78106 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +317,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82998992279FD3B200D78106 /* Users.json in Resources */,
+				82998977279FD1F600D78106 /* Base.lproj in Resources */,
+				82998971279FD1F500D78106 /* Assets.xcassets in Resources */,
+				82998994279FD3B200D78106 /* ErrorUsers.json in Resources */,
+				82998996279FD3B200D78106 /* Posts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +339,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82998999279FD3B300D78106 /* NetworkManager.swift in Sources */,
+				82998997279FD3B200D78106 /* Constants.swift in Sources */,
 				8299893D279FCBEE00D78106 /* ViewController.swift in Sources */,
+				8299896E279FD1F500D78106 /* UserViewModel.swift in Sources */,
+				8299899D279FD3B300D78106 /* User.swift in Sources */,
 				82998939279FCBEE00D78106 /* AppDelegate.swift in Sources */,
 				8299893B279FCBEE00D78106 /* SceneDelegate.swift in Sources */,
+				8299899F279FD3B300D78106 /* Posts.swift in Sources */,
+				8299899B279FD3B300D78106 /* LocalManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +356,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				82998950279FCBF800D78106 /* MVVMGenericDemoTests.swift in Sources */,
+				8299897F279FD23A00D78106 /* NetworkTests.swift in Sources */,
+				8299899A279FD3B300D78106 /* NetworkManager.swift in Sources */,
+				8299896F279FD1F500D78106 /* UserViewModel.swift in Sources */,
+				82998998279FD3B200D78106 /* Constants.swift in Sources */,
+				8299899C279FD3B300D78106 /* LocalManager.swift in Sources */,
+				8299899E279FD3B300D78106 /* User.swift in Sources */,
+				829989A0279FD3B300D78106 /* Posts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
