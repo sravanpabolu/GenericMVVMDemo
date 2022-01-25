@@ -47,7 +47,7 @@ class NetworkTests: XCTestCase {
             XCTAssertNotNil(users)
             XCTAssertGreaterThan(users?.count as! Int, 0)
         })
-        waitForExpectations(timeout: 5, handler: nil)
+        waitForExpectations(timeout: 10, handler: nil)
     }
 
 //    func testLocalHostURL() {
